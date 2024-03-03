@@ -6,5 +6,11 @@ namespace Arinza
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            String name = textBox1.Text;
+            label2.Text = "Hallo! " + name;
+        }
     }
 }
